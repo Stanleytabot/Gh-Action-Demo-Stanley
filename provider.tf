@@ -11,13 +11,3 @@ terraform {
 provider "aws" {
   region = "us-east-2"
 }
-
-terraform {
-  cloud {
-    organization = "FusionIT"
-
-    workspaces {
-      name = "gh-action-demo-stanley"
-    }
-  }
-}
