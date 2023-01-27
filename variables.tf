@@ -19,5 +19,5 @@ variable "instance_type" {
 variable "key_name" {
   description = "ec2_instance key"
   type = string
-  default = "my-key-pair"
+  default = "Devkey"
 }
