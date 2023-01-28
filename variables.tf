@@ -13,10 +13,10 @@ variable "ami" {
 variable "instance_type" {
   description = "aws_instance"
   type = string
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
-variable "key_name" {
+variable "Devkey" {
   description = "ec2_instance key"
   type = string
   default = "Devkey"
